@@ -47,8 +47,8 @@ Assume that you would like to use context as the first argument to the `log.Prin
   "LibPkgPath"      : "log",
   "LibPkgName"      : "log",
   "LibFns"          : [{"Name": "Print"}],
-  "LoadPaths"       : ["github.com/uber-research/go-context-propagate/example"]
-  "CtxParamInvalid" : "Background()",
+  "LoadPaths"       : ["github.com/uber-research/go-context-propagate/example"],
+  "CtxParamInvalid" : "Background()"
 }
 ```
 
