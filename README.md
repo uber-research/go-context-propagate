@@ -10,9 +10,11 @@ The [Go-recommended](https://blog.golang.org/context) method of propagating cont
 
 ## Installation
 
-`go get -u github.com/uber-research/go-context-propagate/...`
+```bash
+GO111MODULE=off go get -u github.com/uber-research/go-context-propagate/...
+```
 
-Please note that we must currently disable Go modules (`GO111MODULE=off` in the examples below) as they seem to interfere with the behavior of the tool chain used to implement this project.
+Please note that we must currently disable Go modules (`GO111MODULE=off` ) as they seem to interfere with the behavior of the tool chain used to implement this project.
 
 ## Running
 
