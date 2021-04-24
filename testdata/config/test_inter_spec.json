@@ -1,0 +1,15 @@
+{
+  "CtxPkgPath": "lib",
+  "CtxPkgName": "lib",
+  "CtxParamName": "ctx",
+  "CtxParamType": "Context",
+  "CtxParamInvalid": "Background()",
+  "LibPkgPath": "lib_helper",
+  "LibPkgName": "lib_helper",
+  "LibIface": "SpecInter",  
+  "LibFns": [
+    {
+      "Name": "Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "CtxPkgPath": "lib",
+  "CtxPkgName": "lib",
+  "CtxParamName": "ctx",
+  "CtxParamType": "Context",
+  "CtxParamInvalid": "Background()",
+  "LibPkgPath": "lib",
+  "LibPkgName": "lib",
+  "ExtPkgPaths": [
+    "lib_helper"
+  ],
+  "ExtEmbedTypes": [
+    {
+      "Name": "EmbedStruct",
+      "PkgPath": "lib_helper",
+      "PkgName": "lib_helper"
+    }
+  ],
+  "LibFns": [
+    {
+      "Name": "A",
+      "NewName": "CtxA"
+    },
+    {
+      "Name": "B",
+      "NewName": "CtxB"
+    }
+  ]
+}

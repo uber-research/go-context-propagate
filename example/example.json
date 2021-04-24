@@ -1,0 +1,11 @@
+{
+  "CtxPkgPath"      : "context",
+  "CtxPkgName"      : "context",
+  "CtxParamType"    : "Context",
+  "CtxParamName"    : "ctx",
+  "LibPkgPath"      : "log",
+  "LibPkgName"      : "log",
+  "LibFns"          : [{"Name": "Print"}],
+  "LoadPaths"       : ["github.com/uber-research/go-context-propagate/example"]
+  "CtxParamInvalid" : "Background()",
+}

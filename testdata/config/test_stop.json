@@ -1,0 +1,32 @@
+{
+  "CtxPkgPath": "lib",
+  "CtxPkgName": "lib",
+  "CtxParamName": "ctx",
+  "CtxParamType": "Context",
+  "CtxParamInvalid": "Background()",
+  "LibPkgPath": "lib",
+  "LibPkgName": "lib",
+  "LibFns": [
+    {
+      "Name": "A",
+      "NewName": "CtxA"
+    }
+  ],
+  "PropagationStops": [
+    {
+      "Name": "FooFn",
+      "PkgPath": "test-stop",
+      "PkgName": "test"
+    },
+    {
+      "Name": "FooMethod",
+      "Recv": {
+        "PkgPath": "test-stop",
+        "PkgName": "test",
+        "Type": "StopTestStruct"
+      },
+      "PkgPath": "test-stop",
+      "PkgName": "test"
+    }
+  ]
+}

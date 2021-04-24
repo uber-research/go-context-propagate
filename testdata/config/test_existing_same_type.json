@@ -1,0 +1,44 @@
+{
+  "CtxPkgPath": "lib",
+  "CtxPkgName": "lib",
+  "CtxParamName": "ctx",
+  "CtxParamType": "Context",
+  "CtxParamInvalid": "Background()",
+  "LibPkgPath": "lib",
+  "LibPkgName": "lib",
+  "LibFns": [
+    {
+      "Name": "A",
+      "NewName": "CtxA"
+    },
+    {
+      "Name": "B",
+      "NewName": "CtxB"
+    },
+    {
+      "Name": "C",
+      "NewName": "CtxC",
+      "ArgPos": 1
+    },
+    {
+      "Name": "D",
+      "NewName": "CtxD",
+      "ArgPos": 2,
+      "CtxImports": [
+        {
+          "Import": "lib_helper"
+        }
+      ],
+      "CtxExpr": "lib_helper.Ident(<?CTX?>)"
+    },
+    {
+      "Name": "E",
+      "NewName": "CtxE",
+      "ArgPos": -1
+    },
+    {
+      "Name": "G",
+      "NewName": "CtxG"
+    }
+  ]
+}

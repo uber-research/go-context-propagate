@@ -1,0 +1,30 @@
+{
+  "CtxPkgPath": "lib",
+  "CtxPkgName": "lib",
+  "CtxPkgAlias": "context",
+  "CtxParamName": "ctx",
+  "CtxParamType": "Context",
+  "CtxParamInvalid": "Background()",
+  "LibPkgPath": "lib",
+  "LibPkgName": "lib",
+  "CtxCustomPkgPath": "lib_helper",
+  "CtxCustomPkgName": "lib_helper",
+  "CtxCustomParamType": "CustomContext",
+  "CtxCustomExprExtract": "<?CTX_CUSTOM?>.(<?CTX_PREF?>.Context)",
+  "LibFns": [
+    {
+      "Name": "A",
+      "NewName": "CtxA"
+    },
+    {
+      "Name": "B",
+      "NewName": "CtxB"
+    },
+    {
+      "Name": "C",
+      "NewName": "CtxC",
+      "ArgPos": 1,
+      "CtxExpr": "lib.Copy(<?CTX?>)"
+    }
+  ]
+}

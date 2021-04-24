@@ -1,0 +1,48 @@
+{
+  "CtxPkgPath": "lib",
+  "CtxPkgName": "lib",
+  "CtxParamName": "ctx",
+  "CtxParamType": "Context",
+  "CtxParamInvalid": "Background()",
+  "LibPkgPath": "lib",
+  "LibPkgName": "lib",
+  "LibFns": [
+    {
+      "Name": "A",
+      "NewName": "CtxA"
+    },
+    {
+      "Name": "B",
+      "NewName": "CtxB"
+    },
+    {
+      "Name": "C",
+      "NewName": "CtxC",
+      "ArgPos": 1
+    },
+    {
+      "Name": "D",
+      "NewName": "CtxD",
+      "ArgPos": 2
+    },
+    {
+      "Name": "E",
+      "NewName": "CtxE",
+      "ArgPos": -1
+    },
+    {
+      "Name": "F",
+      "Recv": {
+        "PkgPath": "lib",
+        "PkgName": "lib",
+        "Type": "*Rec"
+      },
+      "NewName": "CtxF"
+    },
+    {
+      "Name": "G",
+      "NewName": "CtxG",
+      "CtxExpr": "lib.Copy(ctx)"
+    }
+  ]
+}
